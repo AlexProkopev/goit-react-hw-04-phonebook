@@ -1,0 +1,15 @@
+.input {
+    width: 95%;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.input::placeholder {
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 7px;
+}

@@ -1,0 +1,29 @@
+.listContacts {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Стили для элементов контактов */
+  .elemContacts {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Стили для кнопки "Удалить" */
+  .btnContacts {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .btnContacts:hover {
+    background-color: #c0392b;
+  }
